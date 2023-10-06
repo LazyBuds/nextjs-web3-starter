@@ -1,38 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NextJS Web 3 starter kit
 
-## Getting Started
+This project is forked from https://github.com/Shiyasmohd/nextjs-web3-starter.
 
-First, run the development server:
+Technologies Used - 
+- NextJS
+- Wagmi
+- Rainbow Kit
+- Tailwind CSS
+- Chakra UI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Steps to run the project -
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ - Clone the repository.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+        git clone https://github.com/LazyBuds/nextjs-web3-starter/
+        cd nextjs-web3-starter
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Install packages.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+        pnpm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Get environment variables.
 
-## Learn More
+        NEXT_PUBLIC_ALCHEMY_ID=""
 
-To learn more about Next.js, take a look at the following resources:
+Get the id/api key from [Alchemy](https://www.alchemy.com/) .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Run the project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+        pnpm run dev
