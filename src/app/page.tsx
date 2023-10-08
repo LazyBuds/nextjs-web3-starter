@@ -1,18 +1,15 @@
 "use client";
 import { Inter } from "next/font/google";
-import Image from "next/image";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center min-h-[80vh] gap-10">
-      <Image
+      <img
         src={"/hero.svg"}
         alt="hero img"
-        width={"600"}
-        height={"600"}
-        className="absolute -z-10 top-14 rotate-90 left-52"
+        className="absolute -z-10 md:top-14 rotate-90 md:left-52 top-72 left-32  md:w-[600px] md:h-[600px] w-[200px] h-[200px]"
       />
       <h1 className="font-bold md:text-7xl text-2xl ">
         Get started with <br /> your Web 3 Journey

@@ -28,7 +28,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
   ]
 );
 
-const connectors = connectorsForWallets([
+export const connectors = connectorsForWallets([
   {
     groupName: "Suggested",
     wallets: [metaMaskWallet({ chains })],
@@ -54,7 +54,7 @@ export default function RootLayout({
           <RainbowKitProvider chains={chains}>
             <CacheProvider>
               <ChakraProvider>
-                <main className="max-w-screen-2xl md:min-w-[1280px]">
+                <main className="max-w-screen-2xl md:min-w-[1280px] w-full">
                   <Navbar />
                   {children}
                 </main>
