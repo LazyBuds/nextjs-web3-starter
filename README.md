@@ -26,7 +26,7 @@ Steps to run the project -
        NEXT_PUBLIC_WALLET_CONNECT=""
 
 Get the id/api key from [Alchemy](https://www.alchemy.com/) .
-Wallet Connect is a random key genrated with `openssl rand -base64 32`
+Wallet Connect is a random key generated with `openssl rand -base64 32`
 
 - Run the project.
 
